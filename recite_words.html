@@ -1,0 +1,89 @@
+<html>
+<head>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<style>
+#nav{
+  width:100%;
+  margin:0px auto;
+  position:fixed;/*固定作用*/
+  top:0px;
+  left:0px;
+  /*ie6下样式，加下划线表示只针对ie6 的hack */
+  _position:absolute;/* 把导航栏位置定义为绝对位置  关键*/
+  _top:expression(documentElement.scrollTop + "px"); /* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 */
+  z-index:9999; /* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+  text-align:center;
+  }
+
+div{
+  border-bottom:1px solid red;
+}
+</style>
+<script type="text/javascript">
+
+$(function(){
+	$('body').on('click','.item',function(){
+		let ps=$(this).find('p');
+		if(ps.eq(0).css('display')=='none'){
+			ps.eq(0).css('display','');
+			ps.eq(1).css('display','none');
+		}else{
+			ps.eq(1).css('display','');
+			ps.eq(0).css('display','none');
+		}
+	});
+	k=0
+	$('#num').text('第'+(k+1)+'章');
+	
+	
+	$('#last').on('click',function(){
+		if(k!=0){
+			k--;
+			$('#num').text('第'+(k+1)+'章');
+			$('#cc').empty();
+			for(i in data[k]){
+				let tt=$('<div class="item"></div>').append('<p style="display:none;">'+data[k][i][0]+'</p>')
+				.append('<p>'+data[k][i][1]+'</p>');
+				$('#cc').append(tt);
+			}
+		}
+	})
+	$('#next').on('click',function(){
+		if(k!=15){
+			k++;
+			$('#num').text('第'+(k+1)+'章');
+			$('#cc').empty();
+			for(i in data[k]){
+				let tt=$('<div class="item"></div>').append('<p style="display:none;">'+data[k][i][0]+'</p>')
+				.append('<p>'+data[k][i][1]+'</p>');
+				$('#cc').append(tt);
+			}
+		}
+	})
+	$('#pre').css('height',$('#nav').height());
+	for(i in data[k]){
+	    let tt=$('<div class="item"></div>').append('<p style="display:none;">'+data[k][i][0]+'</p>')
+		.append('<p>'+data[k][i][1]+'</p>');
+		//console.log(data[i]);
+		$('#cc').append(tt);
+	}
+});
+</script>
+</head>
+<body>
+<div  id="nav">
+	<table style="height:50px;width:100%;text-align:center;vertical-align:middle">
+	<tr>
+	<td  id='last' style='background-color: #ccc;' >上一章</td>
+	<td id="num" style='background-color: #fff;' ></td>
+	<td  id='next'  style='background-color: #ccc;' >下一章</td>
+	</tr>
+	</table>
+</div>
+<div id="pre"></div>
+	<div style='' id = 'cc'>
+
+	</div>
+</body>
+</html>
