@@ -3,58 +3,58 @@
  */
 var data=[
     [
-        "ITEMimg/i1/ITEM.jpg",
-        "ITEMimg/i1/1.png",
-        "ITEMimg/i1/2.png",
-        "ITEMimg/i1/3.png",
-        "ITEMimg/i1/4.png",
-        "ITEMimg/i1/5.png",
-        "ITEMimg/i1/6.png",
-        "ITEMimg/i1/7.png"
+        "fillColor/ITEMimg/i1/ITEM.jpg",
+        "fillColor/ITEMimg/i1/1.png",
+        "fillColor/ITEMimg/i1/2.png",
+        "fillColor/ITEMimg/i1/3.png",
+        "fillColor/ITEMimg/i1/4.png",
+        "fillColor/ITEMimg/i1/5.png",
+        "fillColor/ITEMimg/i1/6.png",
+        "fillColor/ITEMimg/i1/7.png"
     ],
     [
-        "ITEMimg/i2/ietm.jpg",
-        "ITEMimg/i2/1.png",
-        "ITEMimg/i2/2.png",
-        "ITEMimg/i2/3.png",
-        "ITEMimg/i2/4.png"
+        "fillColor/ITEMimg/i2/ietm.jpg",
+        "fillColor/ITEMimg/i2/1.png",
+        "fillColor/ITEMimg/i2/2.png",
+        "fillColor/ITEMimg/i2/3.png",
+        "fillColor/ITEMimg/i2/4.png"
     ],
     [
-        "ITEMimg/i3/ITEM.jpg",
-        "ITEMimg/i3/1.png",
-        "ITEMimg/i3/2.png",
-        "ITEMimg/i3/3.png",
-        "ITEMimg/i3/4.png",
-        "ITEMimg/i3/5.png",
-        "ITEMimg/i3/6.png"
+        "fillColor/ITEMimg/i3/ITEM.jpg",
+        "fillColor/ITEMimg/i3/1.png",
+        "fillColor/ITEMimg/i3/2.png",
+        "fillColor/ITEMimg/i3/3.png",
+        "fillColor/ITEMimg/i3/4.png",
+        "fillColor/ITEMimg/i3/5.png",
+        "fillColor/ITEMimg/i3/6.png"
     ],
     [
-        "ITEMimg/i4/ITEM.jpg",
-        "ITEMimg/i4/1.png",
-        "ITEMimg/i4/2.png",
-        "ITEMimg/i4/3.png",
-        "ITEMimg/i4/4.png",
-        "ITEMimg/i4/5.png"
+        "fillColor/ITEMimg/i4/ITEM.jpg",
+        "fillColor/ITEMimg/i4/1.png",
+        "fillColor/ITEMimg/i4/2.png",
+        "fillColor/ITEMimg/i4/3.png",
+        "fillColor/ITEMimg/i4/4.png",
+        "fillColor/ITEMimg/i4/5.png"
     ],
     [
-        "ITEMimg/i5/ITEM.jpg",
-        "ITEMimg/i5/1.png",
-        "ITEMimg/i5/2.png",
-        "ITEMimg/i5/3.png",
-        "ITEMimg/i5/4.png",
-        "ITEMimg/i5/5.png"
+        "fillColor/ITEMimg/i5/ITEM.jpg",
+        "fillColor/ITEMimg/i5/1.png",
+        "fillColor/ITEMimg/i5/2.png",
+        "fillColor/ITEMimg/i5/3.png",
+        "fillColor/ITEMimg/i5/4.png",
+        "fillColor/ITEMimg/i5/5.png"
     ],
     [
-        "ITEMimg/i6/ITEM.jpg",
-        "ITEMimg/i6/1.png",
-        "ITEMimg/i6/2.png",
-        "ITEMimg/i6/3.png",
-        "ITEMimg/i6/4.png",
-        "ITEMimg/i6/5.png",
-        "ITEMimg/i6/6.png",
-        "ITEMimg/i6/7.png",
-        "ITEMimg/i6/8.png",
-        "ITEMimg/i6/9.png"
+        "fillColor/ITEMimg/i6/ITEM.jpg",
+        "fillColor/ITEMimg/i6/1.png",
+        "fillColor/ITEMimg/i6/2.png",
+        "fillColor/ITEMimg/i6/3.png",
+        "fillColor/ITEMimg/i6/4.png",
+        "fillColor/ITEMimg/i6/5.png",
+        "fillColor/ITEMimg/i6/6.png",
+        "fillColor/ITEMimg/i6/7.png",
+        "fillColor/ITEMimg/i6/8.png",
+        "fillColor/ITEMimg/i6/9.png"
     ]
 ];
 var whxyInfo=[
