@@ -39,8 +39,8 @@ https://github.com/gulvarol/surreal'
 '
 	},
 	{
-		tag: ["三维相关"],
-		name: "potree",
+		tag: ["三维相关","人体相关的算法"],
+		name: "potree2",
 		detail: 'web三维点云展示\
 这个可以展示扫描模型，目测可以展示十几万点的没什么问题\
 '
